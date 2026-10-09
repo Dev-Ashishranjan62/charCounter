@@ -1,0 +1,43 @@
+body {
+  margin: 10px;
+  padding: 10px;
+  background-color: black;
+  /* border: 10px solid white; */
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#counter {
+  background-color: rgb(33, 33, 33);
+  border: 1px solid white;
+  border-radius: 7px;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+}
+#inputField {
+  background-color: hsl(240, 2%, 23%);
+  border: 2px solid white;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+#displayField {
+  background-color: rgb(95, 99, 104);
+  border: 2px solid white;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+#countBtn {
+  background-color: blue;
+  border: 2px solid;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+#countBtn:hover {
+  background-color: rgba(0, 0, 255, 0.304);
+}
+p {
+  color: white;
+  background-color: rgb(95, 99, 104);
+}
